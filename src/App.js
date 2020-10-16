@@ -2,6 +2,8 @@ import React from 'react'
 import CompanyList_76 from './CompanyList'
 import SearchBox_76 from './SearchBox'
 import {logos} from './logos'
+import Scroll_76 from './Scroll'
+import './App.css'
 
 class App extends React.Component {
     constructor(props) {
@@ -25,7 +27,9 @@ class App extends React.Component {
             <div className = 'tc'>
                 <h1>Company Logo</h1>
                 <SearchBox_76 searchChange = {this.onSearchChange}/>
-                <CompanyList_76 logos = {filteredCompanies}/>;
+                <Scroll_76>
+                    <CompanyList_76 logos = {filteredCompanies}/>
+                </Scroll_76>
             </div>
         )
     }

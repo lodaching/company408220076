@@ -1,0 +1,10 @@
+@font-face {  
+    font-family: 'Strawberry Shortcake Supplement Logo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Strawberry Shortcake Supplement Logo') url('Strawberry Shortcake Supplement Logo.ttf'), format('truetype');}
+h1 {  
+    font-family: 'Strawberry Shortcake Supplement Logo';  
+    font-weight: 200;  
+    color: #0ccac4;
+}
